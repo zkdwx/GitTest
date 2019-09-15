@@ -8,4 +8,8 @@ public class User {
     public void call(String name){
         System.out.println("name"+name);
     }
+
+    public void email(String address){
+        System.out.println("address"+address);
+    }
 }
